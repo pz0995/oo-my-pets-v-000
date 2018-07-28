@@ -10,9 +10,11 @@ class Owner
     end
 
     def pets
-
+    if owner play_with_cats
+      cat.mood = "happy"
+    elsif owner feed_fish
+      fish.mood = "happy"
     end
-
 end
 
 
