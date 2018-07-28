@@ -9,11 +9,13 @@ class Owner
       mood = nervous
     end
 
-    def pets
-    if owner play_with_cats
+    def pets_action
+    if play_with_cats
       cat.mood = "happy"
-    elsif owner feed_fish
+    elsif feed_fish
       fish.mood = "happy"
+    else walk_dogs
+      dog.mood = "happy"
     end
 end
 
