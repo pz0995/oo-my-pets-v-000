@@ -7,11 +7,11 @@ class Owner
       owners_name.freeze = owner.new
       owner.count
       mood = nervous
-
     end
 
-    def 
-  end
+    def pets
+
+    end
 
 end
 
