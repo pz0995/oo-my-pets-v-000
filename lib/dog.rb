@@ -3,8 +3,8 @@ class Dog
   attr_accessor :mood
 
   def initialize
-    new Dog
-    dogs_name. freeze = Dog.new
+    dogs_name. freeze = dog.new
+    dog.count
     mood = nervous
   end
 end
